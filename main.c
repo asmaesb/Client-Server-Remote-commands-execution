@@ -83,6 +83,7 @@ int main(int argc, char const *argv[])
         prs2->nom = strdup(argv[5]);
         prs2->prenom = strdup(argv[6]);
         prs2->num_tel = strdup(argv[7]);
+        printf("hhhh");
         modifier(join(usms , argv[8]), prs1,prs2);
     }
     return 0;
